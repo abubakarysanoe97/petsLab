@@ -23,9 +23,8 @@ public abstract class Pets {
         this.type = type;
     }
 
-    public void petSpeak(String speak){
+    public void petSpeak(){
       System.out.println( name + "Makes this sound");
     }
 
-    public abstract String getPetName();
 }

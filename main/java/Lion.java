@@ -5,7 +5,7 @@ public class Lion extends Pets{
     }
 
     @Override
-    public void petSpeak(String speak) {
-        super.petSpeak(getName() + "Says Roooooooaaarrrrrr");
+    public void petSpeak() {
+        System.out.println(getName() + "Says Roooooooaaarrrrrr");
     }
 }

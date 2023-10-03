@@ -5,7 +5,8 @@ public class Dog extends Pets {
     }
 
     @Override
-    public void petSpeak(String speak) {
+    public void petSpeak() {
         System.out.println(getName() + " Says Wooffffffffffffffff");
     }
+
 }
